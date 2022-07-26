@@ -1,0 +1,58 @@
+/* Font Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+/* Header Section */
+
+.buy-btn {
+    background-color: #3D4FF3;
+    color: white;
+}
+
+.banner-img {
+    width: 80%;
+}
+
+span {
+    color: #FA804C;
+}
+
+.banner-title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+/* Smaller Devices */
+@media screen and (max-width:576px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+}
+
+
+/* Mediam Devices */
+
+@media screen and (min-width:577px) and (max-width:992px) {}
